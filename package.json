@@ -29,6 +29,7 @@
     "index.d.ts"
   ],
   "scripts": {
+    "start": "node excel.js",
     "test": "npm run test:full",
     "test:es5": "export EXCEL_BUILD=es5 && npm run test:full",
     "test:full": "npm run build && npm run test:unit && npm run test:integration && npm run test:end-to-end && npm run test:jasmine",
